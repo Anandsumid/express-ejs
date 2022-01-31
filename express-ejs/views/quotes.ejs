@@ -1,0 +1,8 @@
+<h4><%=title%></h4>
+<ul>
+    <%for (i = 0; i < quotes.length; i++){  %> 
+     <a href="quote/<%=quotes[i].id%>"><li><%=quotes[i].quote%></li> </a>
+     <% } %> 
+ </ul>
+
+ <a href="/">back</a>
